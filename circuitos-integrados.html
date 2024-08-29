@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circuitos Integrados</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Circuitos Integrados</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="circuitos-integrados">
+        <h2>Entendiendo los Circuitos Integrados a través de la Lógica de Interruptores</h2>
+        <p>Fecha: 29 de agosto, 2024</p>
+
+        <p>Los circuitos integrados (ICs) son esenciales en todos los dispositivos electrónicos modernos. Aunque pueden parecer complejos, su funcionamiento básico se puede entender si lo comparamos con interruptores simples, como los que usamos para encender o apagar luces.</p>
+
+        <h3>Lógica Básica de Interruptores: A y B</h3>
+        <p>Imagina dos interruptores, A y B, conectados a una bombilla. La bombilla solo se encenderá si ambos interruptores están en la posición "encendido". Este es un ejemplo simple de una <strong>puerta lógica AND</strong>.</p>
+
+        <p>Si ambos interruptores están encendidos (1), la bombilla (salida) se enciende (1). Si uno o ambos interruptores están apagados (0), la bombilla permanece apagada (0).</p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>A (Entrada)</th>
+                    <th>B (Entrada)</th>
+                    <th>Salida (Luz)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>Circuitos Integrados y la Lógica Digital</h3>
+        <p>Dentro de un IC, esta lógica de interruptores se implementa con transistores, que actúan como pequeños interruptores electrónicos. Cada transistor puede estar en un estado de "encendido" (1) o "apagado" (0).</p>
+
+        <h3>Puertas Lógicas Básicas en Circuitos Integrados</h3>
+        <ul>
+            <li><strong>Puerta AND</strong>: La salida es 1 solo si ambas entradas son 1.</li>
+            <li><strong>Puerta OR</strong>: La salida es 1 si al menos una de las entradas es 1.</li>
+            <li><strong>Puerta NOT</strong>: Actúa como un inversor. Si la entrada es 1, la salida será 0 y viceversa.</li>
+        </ul>
+
+        <h3>Ejemplo en la Vida Real: Puerta AND en un Circuito Integrado</h3>
+        <p>Supongamos que estamos diseñando un pequeño IC que controle una función de encendido para un dispositivo. Este IC podría usar una puerta AND para asegurarse de que el dispositivo solo se encienda si dos condiciones son verdaderas: el botón de encendido está presionado y la fuente de alimentación está activa.</p>
+
+        <p>Solo cuando ambas señales son 1 (botón presionado y energía disponible), el IC permitirá que la corriente fluya y el dispositivo se encienda.</p>
+
+        <h3>Conclusión</h3>
+        <p>Los circuitos integrados son conjuntos de transistores que trabajan como interruptores microscópicos, utilizando puertas lógicas para procesar información. Esta lógica de encendido/apagado es lo que permite a los ICs ejecutar millones de operaciones por segundo, dándonos la tecnología avanzada que usamos a diario.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mi Nombre. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,158 @@
+/* Importación de Google Fonts y Font Awesome */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+/* Estilo del encabezado */
+header {
+    background-color: #333333; /* Gris elegante */
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-weight: 700; /* Más negrita para un aspecto profesional */
+    letter-spacing: 1px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ccc; /* Gris claro en hover */
+}
+
+/* Sección principal */
+section {
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo de títulos */
+h2, h3 {
+    color: #333333; /* Gris elegante */
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+/* Estilo de las tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    font-weight: 400;
+}
+
+thead {
+    background-color: #f0f0f0;
+}
+
+/* Listas con iconos */
+ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+ul li::before {
+    content: "\f00c"; /* Icono de verificación (check) */
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    margin-right: 10px;
+    color: #666666; /* Gris oscuro */
+}
+
+/* Enlaces en el blog */
+a {
+    color: #333333; /* Gris elegante */
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #666666;
+}
+
+/* Estilo del pie de página */
+footer {
+    background-color: #333333; /* Gris elegante */
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 0;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+/* Enlace de entrada del blog */
+.blog-entry-link {
+    color: #007BFF; /* Azul tipo enlace */
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.blog-entry-link:hover {
+    color: #0056b3; /* Azul más oscuro al pasar el ratón */
+}
+/* Estilo para la imagen en la sección "Sobre Mí" */
+.perfil-img {
+    display: block;
+    max-width: 150px; /* Ajusta el tamaño según tus necesidades */
+    height: auto;
+    border-radius: 50%; /* Opcional: para darle una forma circular */
+    margin: 0 auto; /* Centrar la imagen */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Opcional: agregar sombra */
+}
+
+
